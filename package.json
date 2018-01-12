@@ -7,12 +7,12 @@
   "bugs": {
     "url": "https://github.com/uber-web/renovate-config/issues"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "renovate-config": {
     "default": {
       "extends": ["config:base"],
       "automerge": true,
-      "automergeType": "branch-push"
+      "automergeType": "pr"
     }
   }
 }
