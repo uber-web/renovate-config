@@ -1,0 +1,17 @@
+{
+  "name": "renovate-config-uber",
+  "description": "Renovate preset for Uber",
+  "author": "Kevin Grandon <keving@uber.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uber-web/renovate-config/issues"
+  },
+  "version": "0.0.1",
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "automerge": true,
+      "automergeType": "branch-push"
+    }
+  }
+}
