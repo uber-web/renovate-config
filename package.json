@@ -12,7 +12,8 @@
     "default": {
       "extends": ["config:base"],
       "automerge": true,
-      "automergeType": "pr"
+      "automergeType": "pr",
+      "pinVersions": false
     }
   }
 }
