@@ -13,7 +13,8 @@
       "extends": ["config:base"],
       "automerge": true,
       "automergeType": "pr",
-      "pinVersions": false
+      "pinVersions": false,
+      "prConcurrentLimit": 1
     }
   }
 }
