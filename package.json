@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/uber-web/renovate-config/issues"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "renovate-config": {
     "default": {
       "extends": ["config:base"],
