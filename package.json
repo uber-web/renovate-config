@@ -13,6 +13,9 @@
       "extends": ["config:base"],
       "automerge": true,
       "automergeType": "pr",
+      "buildkite": {
+        "enabled": true
+      },
       "pinVersions": false,
       "prConcurrentLimit": 1
     }
