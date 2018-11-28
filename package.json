@@ -16,6 +16,14 @@
       "buildkite": {
         "enabled": true
       },
+      "packageRules": [
+        {
+          "depTypeList": [
+            "engines",
+            "peerDependencies"
+          ]
+        }
+      ],
       "pinVersions": false,
       "prConcurrentLimit": 1
     }
