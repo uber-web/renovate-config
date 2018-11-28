@@ -10,12 +10,11 @@
   "version": "0.0.5",
   "renovate-config": {
     "default": {
-      "extends": ["config:base"],
+      "extends": [
+        "config:base"
+      ],
       "automerge": true,
       "automergeType": "pr",
-      "buildkite": {
-        "enabled": true
-      },
       "pinVersions": false,
       "prConcurrentLimit": 1
     }
