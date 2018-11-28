@@ -10,12 +10,25 @@
   "version": "0.0.5",
   "renovate-config": {
     "default": {
-      "extends": ["config:base"],
+      "extends": [
+        "config:base"
+      ],
       "automerge": true,
       "automergeType": "pr",
-      "buildkite": {
-        "enabled": true
-      },
+      "packageRules": [
+        {
+          "depTypeList": [
+            "peerDependencies"
+          ],
+          "rangeStrategy": "bump"
+        },
+        {
+          "depTypeList": [
+            "engines"
+          ],
+          "rangeStrategy": "widen"
+        }
+      ],
       "pinVersions": false,
       "prConcurrentLimit": 1
     }
