@@ -2,7 +2,7 @@
 
 This defines the renovate configuration for all Web repositories at Uber.
 
-For more information see the renovate configuration options here: https://renovateapp.com/docs/configuration-reference/configuration-options
+For more information see the renovate configuration options here: https://renovatebot.com/docs/configuration-options/
 
 ## Current rules
 
@@ -10,7 +10,7 @@ This is a list of our current rules and justification for why we enable each rul
 
 **"extends": ["config:base"]**
 
-Gets all of the defaults from: https://renovateapp.com/docs/config-presets/config-config#configbase
+Gets all of the defaults from: https://renovatebot.com/docs/presets-config/
 
 **"automerge": true, "automergeType": "pr"**
 
